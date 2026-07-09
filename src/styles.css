@@ -1,0 +1,77 @@
+/* styles.css */
+* {
+    margin: 10px 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    background-image: url("./background.jpg");
+    background-size: cover;
+    background-position: center 16px;
+    background-repeat: no-repeat;
+}
+
+nav {
+    text-align: center;
+}
+
+button {
+    background-color: black;
+    color: rgb(255, 0, 225);
+    padding: 10px 20px;
+    margin: 0px 30px;
+    border-radius: 25px;
+    font-size: 50px;
+    border: 1px solid rgb(102, 0, 255);
+}
+
+button:hover {
+    color: rgb(251, 255, 0);
+    border: 1px solid rgb(255, 0, 162);
+    animation: wiggle 0.3s ease-in-out infinite;
+    box-shadow: 0 0 15px rgb(255, 0, 225);
+}
+
+@keyframes wiggle {
+    0% { transform: scale(1.1) rotate(0deg); }
+    25% { transform: scale(1.1) rotate(5deg); }
+    50% { transform: scale(1.1) rotate(-5deg); }
+    75% { transform: scale(1.1) rotate(5deg); }
+    100% { transform: scale(1.1) rotate(0deg); }
+}
+#content {
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+}
+
+.restaurant-image {
+    border-radius: 300px;
+    max-height: 600px;
+    margin-bottom: 200px;
+}
+
+
+h1 {
+    font-size: 75px;
+    color: rgb(0, 255, 55);
+    background-color: black;
+    border-radius: 12px;
+    padding: 10px 20px;
+    display: inline-block;
+    border: 2px solid rgb(0, 251, 255);
+}
+
+p {
+    font-size: 45px;
+    color: rgb(229, 255, 0);
+    background-color: black;
+    border-radius: 12px;
+    padding: 10px 20px;
+    display: inline-block;
+    border: 2px solid rgb(247, 0, 255);
+}
